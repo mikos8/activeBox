@@ -1,0 +1,52 @@
+body {
+    /* font-family: 'Open Sans', sans-serif;*/
+    margin: 0;
+    font-family: 'Raleway', sans-serif;
+    font-size: 14px;
+    columns: #6c7279;;
+}
+
+*,  /*псевдоэлементы*/
+*:before,
+*:after   {
+    box-sizing: border-box;
+}
+
+.container{
+    width: 100%;
+    max-width: 1170px;
+    margin: 0 auto;
+}
+
+.header {
+    
+}
+
+.header__inner{
+    display: flex;
+    justify-content: space-between;
+    border-bottom: 1px solid #515369;
+    padding: 35px 0;
+    align-items: center;/*выравнивание по горизонтали*/
+}
+/* navigation*/
+.nav   {
+    font-size:15px;
+    font-weight: 700; 
+    text-transform: uppercase;
+    display: flex;
+}
+
+.nav__link {
+    text-decoration: none;
+    color: seagreen;
+    padding-right: 20px;
+    opacity: 0.65;
+    transition: opacity .2s linear;/*плавный переход*/
+}
+
+.nav__link:hover {/*псевдокласс подчеркивание*/
+  /*  text-decoration:underline; /*подчеркивание*/
+    opacity: 1;
+}
+/*30minut*/
